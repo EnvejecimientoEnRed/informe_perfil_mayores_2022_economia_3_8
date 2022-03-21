@@ -7,23 +7,10 @@ import { setChartCanvas, setChartCanvasImage } from '../modules/canvas-image';
 import { setRRSSLinks } from '../modules/rrss';
 import { setFixedIframeUrl } from './chart_helpers';
 
-export function initChart(iframe, position) {
-    //Desarrollo de funciones asociadas al gráfico > Título, subtítulo, notas, fuente de datos
-    document.getElementById('title').textContent = 'Ejemplo sobre el umbral de pobreza';
-    document.getElementById('subtitle').textContent = 'Figura 3.9. Ilustración.';
-    document.getElementById('data-source').textContent = 'Datos inventados';
-    document.getElementById('data-note').textContent = '';
-
-    //Desarrollo del gráfico   
-
-
-    //Animación del gráfico
-    document.getElementById('replay').addEventListener('click', function() {
-        animateChart();
-    });
+export function initChart(iframe) {
 
     //Iframe
-    setFixedIframeUrl('ejemplo_umbral_pobreza');
+    setFixedIframeUrl('informe_perfil_mayores_2022_economia_3_9','ejemplo_umbral_pobreza');
 
     //Redes sociales > Antes tenemos que indicar cuál sería el texto a enviar
     setRRSSLinks('ejemplo_umbral_pobreza');
