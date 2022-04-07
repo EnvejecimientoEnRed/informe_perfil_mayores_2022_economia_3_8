@@ -10,7 +10,7 @@ import { setFixedIframeUrl } from './chart_helpers';
 export function initChart(iframe) {
 
     //Iframe
-    setFixedIframeUrl('informe_perfil_mayores_2022_economia_3_9','ejemplo_umbral_pobreza');
+    setFixedIframeUrl('informe_perfil_mayores_2022_economia_3_8','ejemplo_umbral_pobreza');
 
     //Redes sociales > Antes tenemos que indicar cuál sería el texto a enviar
     setRRSSLinks('ejemplo_umbral_pobreza');
