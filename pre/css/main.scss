@@ -168,8 +168,8 @@ body, button {
         top: 0px;
         right: 0px;
 
-        width: 76px;
-        height: 46px;
+        width: 95px;
+        height: 65px;
     }
 }
 
@@ -180,8 +180,8 @@ body, button {
 //Elementos genéricos en contenedores
 .b-title {
     width: 100%;
-    max-width: calc(100% - 90px);
-    min-height: 46px;
+    max-width: calc(100% - 100px);
+    min-height: 65px;
     margin-bottom: 8px;
 
     .title {
@@ -389,20 +389,6 @@ body, button {
             &__options {
                 justify-content: center;
             }
-        }
-    }
-
-    .b-title {
-        width: 100%;
-        max-width: none;
-    
-        .title {
-            max-width: calc(100% - 90px);
-        }
-        
-        .subtitle {
-            //El ancho dependerá de la longitud del título > Para que no se pegue con el logo
-            max-width: calc(100% - 90px);
         }
     }
 
